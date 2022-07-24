@@ -13,7 +13,7 @@ Gerador de Stickers é a primeira parte do projeto desenvolvido na imersão java
 
 - Funcionalidade 3: Gerar figurinhas personalizadas.
 
-- Funcionalidade 4: GET da [API própria]LINK.
+- Funcionalidade 4: GET da [API própria](https://github.com/RonaldAG/alura-stickers-api-2).
 
       - Essa parte está inclusa no próximo repositório (basta clicar em "API própria").
 
@@ -33,12 +33,6 @@ Figurinhas geradas a partir da [API da Nasa](https://api.nasa.gov/) :rocket: <br
 ### Linguagem:
 
 <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-
-### Frameworks:
-
-<a href="https://spring.io.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="spring" width="40" height="40"/>  </a>
-<a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40"/>  </a>
-<a href="https://www.postman.com/" target="_blank"> <img src="https://www.logolynx.com/images/logolynx/84/84b61060699fcac2ac5e915d71ea8567.jpeg" alt="postman" width="40" height="40"/>  </a>
 
 
 ## Acesso ao projeto
