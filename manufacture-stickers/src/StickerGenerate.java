@@ -18,7 +18,6 @@ public class StickerGenerate {
         // Create a image that will be the background of the main image
         int stickerWidth = 400;
         int resizedHeight = (originalImage.getHeight() * stickerWidth) / originalImage.getWidth();
-        ;
         int newHeight = resizedHeight + 50;
         BufferedImage novaImagem = new BufferedImage(stickerWidth, newHeight, BufferedImage.TRANSLUCENT);
 
@@ -27,8 +26,8 @@ public class StickerGenerate {
         graphics.drawImage(originalImage, stickerWidth/2 - originalImage.getHeight()/2, 0, null);
 
         // set the font
-        var fonte = new Font("Arial", Font.BOLD, 35);
-        graphics.setColor(Color.YELLOW);
+        var fonte = new Font("Comic Sans MS", Font.BOLD, 50);
+        graphics.setColor(Color.GREEN);
         graphics.setFont(fonte);
         graphics.setBackground(Color.BLACK);
         FontMetrics phraseSize = graphics.getFontMetrics(fonte);
@@ -41,8 +40,9 @@ public class StickerGenerate {
             graphics.drawString(needNextLine[1], stickerWidth / 2 - phraseSize.stringWidth(needNextLine[1]) / 2,
                     newHeight - 10);
         } else {
+            int legendPosition = (resizedHeight - originalImage.getHeight()) / 2;
             graphics.drawString(description, stickerWidth / 2 - phraseSize.stringWidth(description) / 2,
-                    newHeight - 20);
+                    newHeight - legendPosition);
 
         }
 
@@ -51,6 +51,7 @@ public class StickerGenerate {
 
     }
 
+    
     private String[] needBreakDescription(String description) {
         if (description.length() > 25) {
             String[] text = new String[2];
